@@ -3,7 +3,7 @@
 
 var color = "";
 
-var pintar = (x) => {
+var pintar = function(x) {
   document.getElementById(x.target.id).style.backgroundColor = color;
 };
 
