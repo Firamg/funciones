@@ -1,9 +1,9 @@
 
 
 
-let color = "";
+var color = "";
 
-const paint = (x) => {
+var pintar = (x) => {
   document.getElementById(x.target.id).style.backgroundColor = color;
 };
 
@@ -17,4 +17,4 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-document.addEventListener("click", paint);
+document.addEventListener("click", pintar);
