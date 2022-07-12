@@ -1,0 +1,32 @@
+.conteiner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 1em;
+}
+div{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+#d01{
+    background-color: rgb(127, 176, 255);
+
+}
+
+#d02{
+    background-color: goldenrod;
+
+}
+
+#d03{
+    background-color: rgb(33, 136, 102);
+
+}
+
+#d04{
+    background-color: yellow;
+
+}
